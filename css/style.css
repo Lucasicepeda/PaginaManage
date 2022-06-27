@@ -28,14 +28,14 @@ header nav ul li{
 .btnGet1{
     background-color: #F3603B;
     color: white;
-    padding: 10px 20px;
+    padding: 12.5px 30px;
     border-radius: 50px;
     border-style: none;
     width: fit-content;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
 }
 .sect1{
-    margin: 5vw;
+    margin: 0vw 8vw;
     display: flex;
     align-content:space-evenly;
     justify-content: space-evenly;
@@ -45,6 +45,8 @@ header nav ul li{
     display: flex;
     align-content: flex-start;
     flex-direction: column;
+    align-self: center;
+    margin-right: 100px;
 }
 
 .sect1-Col1 h2{
@@ -52,17 +54,199 @@ header nav ul li{
     font-weight: 700;
     letter-spacing: -0.035em;
     line-height: 66px;
+    margin-bottom: 26px;
 }
 
 .sect1-Col1 h5{
     font-size: 16.56px;
     font-weight: 500;
+    margin-bottom: 28px;
+    margin-right: 167px;
 }
 
-.sect1-Col2{
-}
 .sect2{
-    margin: 5vw;
+    margin: 1vw 8vw;
     display: flex;
     align-content:space-evenly;
+    justify-items: flex-end;
+}
+
+.sect2-Col1 h3{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 36px;
+}
+
+.sect2-Col1 h5{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 28px;
+    margin-right: 167px;
+}
+
+.cardSect2{
+    display: flex;
+    margin: 28px 78px;
+}
+
+.artText{
+    display: flex;
+    flex-direction: column;
+}
+
+.artTitle{
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+.artContent{
+    color: #B3B2B7;
+    font-weight: 500;
+    font-size: 16.3px;
+    /* margin-right: 154px */
+}
+
+.num{
+    background-color: #F3603B;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border-style: none;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    font-weight: 700;
+    height: fit-content;
+    margin-right: 23px;
+}
+
+section h1{
+    font-size: 39px;
+    font-weight: 700;
+    text-align: center;
+    margin: 80px 0px;
+}
+
+.cardUsers{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1vw 4vw;
+}
+
+.cardUsers div{
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    align-items: center;
+    position: relative;
+}
+
+.cardUsers div img{
+    width: 70px;
+    position: relative;
+    bottom: 35px
+}
+
+.cardName{
+    position: relative;
+    margin-bottom: 21px;
+    font-weight: 700;
+}
+
+.cardContent{
+    color:#B9B9C1;
+    font-size: 16px;
+    text-align: center;
+    margin: 0px 14px;
+    line-height: 25px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: 60px 0px 120px 0px;
+}
+
+.preFooter{
+    background-color: #F3603B;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 26px;
+    color: white;
+    font-weight: 700;
+    padding: 0px 100px;
+    
+}
+.preFooter h2{
+    width: 40vw;
+}
+
+.btnGet2{
+    background-color: white ;
+    color: #F3603B;
+    padding: 12.5px 30px;
+    border-radius: 50px;
+    border-style: none;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    margin-right: 20px;
+}
+
+footer{
+    color: white;
+    background-color: #1E1E26;
+    position: relative;
+    height: 30vh;
+}
+
+.grilla{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+}
+footer p{
+    color: #8C8C94;
+    font-size: 13px;
+    position: absolute;
+    right: 126px;
+    bottom: 30px;
+}
+
+.footCol1 > img{
+    margin-bottom: 50px;
+}
+
+.footCol1 .redes{
+    display: flex;
+    justify-content: space-between;
+}
+.footCol2 ul li, .footCol3 ul li{
+    list-style: none;
+    font-size: 16px;
+    margin: 12px 0px;
+}
+
+.footCol4 form input{
+    border-radius: 50px;
+    color: #A0A0A0;
+    padding: 10px 20px;
+    border-style: none;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    font-size: 13px;
+    height: fit-content;
+    margin-right: 23px;
+}
+
+.footCol4 form button{
+    background-color: #F3603B;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border-style: none;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    height: fit-content;
+    margin-right: 23px;
 }
