@@ -28,7 +28,7 @@ header nav ul li{
 header nav ul li:hover{
     color: gray;
     cursor: pointer;
-    transition: 500ms;
+    transition: 500ms ease-in-out;
 }
 
 header .hamburger{
@@ -47,7 +47,7 @@ header .hamburger{
     opacity: 90%;
     box-shadow: 0px 4px 7px #d75c3d;
     cursor: pointer;
-    transition: 300ms;
+    transition: all 300ms ease-in-out;
 }
 
 .sect1{
@@ -91,6 +91,7 @@ header .hamburger{
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 36px;
+    margin-top: 20px;
 }
 
 .sect2-Col1 h5{
@@ -184,7 +185,7 @@ section h1{
 
 .preFooter{
     background-color: #F3603B;
-    height: 30vh;
+    height: 17vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -221,21 +222,21 @@ footer{
     color: white;
     background-color: #1E1E26;
     position: relative;
-    height: 30vh;
+    height: 18vh;
 }
 
 .grilla{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 30vh;
+    height: 18vh;
 }
-footer p{
+footer > p{
     color: #8C8C94;
-    font-size: 13px;
+    font-size: 11px;
     position: absolute;
-    right: 126px;
-    bottom: 30px;
+    right: 115px;
+    bottom: 45px;
 }
 
 .footCol1 > img{
@@ -244,6 +245,13 @@ footer p{
 
 .footCol1 .redes{
     display: flex;
+    justify-content: space-between;
+}
+
+.mapa{
+    display: flex;
+    /* flex-direction: row; */
+    flex-grow: 0.27;
     justify-content: space-between;
 }
 
@@ -265,6 +273,9 @@ footer p{
     transition: 300ms;
 }
 
+.footCol4 form {
+    height: 55.5px;
+}
 .footCol4 form input::placeholder {
     color: #A0A0A0;
 }
@@ -278,6 +289,7 @@ footer p{
     font-size: 13px;
     height: fit-content;
     margin-right: 23px;
+    width: 250px;
 }
 
 .footCol4 form input:focus:invalid{
@@ -289,6 +301,7 @@ footer p{
     content: "Please insert a valid email";
     color:firebrick;
     font-style: italic;
+    font-size: 11px;
 }
 
 .footCol4 form input:focus:valid{
@@ -296,8 +309,8 @@ footer p{
 }
 
 footer form .msj{
-    right: 234px;
-    bottom: 82px;
+    right: 294px;
+    bottom: 88px;
 }
 
 .footCol4 form button{
@@ -326,6 +339,9 @@ footer form .msj{
         justify-content: space-between;
         padding: 10px 30px;
     }
+    header .hamburger{
+        display: block;
+    }
     .sect1{
         align-items: center;
         flex-direction: column-reverse;
@@ -334,7 +350,6 @@ footer form .msj{
         width: 80vw;
         margin: 0px;
     }
-    
     .sect1-Col1{
         margin: 0px;
         align-items: center;   
@@ -378,6 +393,14 @@ footer form .msj{
         display: flex;
         margin: 20px 15px;
     }
+
+    section h1{
+        font-size: 32px;
+        font-weight: 600;
+        text-align: center;
+        margin: 80px 0px;
+    }
+
     .cardUsers{
         display: flex;
         flex-direction: column;
@@ -387,22 +410,65 @@ footer form .msj{
         display: none;
     }
 
+    .preFooter{
+        background-color: #F3603B;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content:center;
+        padding: 0px 0px;
+    }
+    .preFooter h2{
+        font-size: 35px;
+        margin: 0px 40px 30px 40px;
+        width: fit-content;
+    }
+    
     footer{
-        height:85vh;
+        height:60vh;
+    }
+    footer > p{
+        color: #8C8C94;
+        background-color: #1E1E26;
+        padding: 0px 0px 50px 0px;
+        position:unset;
+        text-align: center;
     }
     .mapa{
         display: flex;
-        justify-content: space-around;
+        width: 350px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: space-evenly;
+    }
+    .footCol2, .footCol3{
+        width: 110px;
     }
     .grilla{
         display: flex;
         flex-direction:column-reverse;
         flex-wrap: wrap;
-        height:auto;
+        height:60vh;
+    }
+    .footCol4 form {
+        margin-top: 20px;
+    }
+    .footCol4 form input{
+        margin-right: 10px;
+    }
+    .footCol4 form button{
+        margin-right: 0px;
     }
     .footCol1{
+        display: flex;
         flex-direction: column-reverse;
-        flex-wrap: wrap;
-        margin: 30px 30vw;
+    }
+    .footCol1 > img{
+        margin: 40px;
+    }
+    .redes i{
+        font-size: 30px;
     }
 }
