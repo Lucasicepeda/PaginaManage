@@ -23,7 +23,7 @@ Su tarea es construir el proyecto con los diseños dentro de la carpeta `/ dise�
 El diseño para mobile esta en formato estático JPG. Si desea hacerle cambios esteticos lo puede hacer a su gusto 
 
 Se agrega link a Figma [https://www.figma.com/file/3PSyK3KYcmvbwK2OVFjFWm/Nico-Digital?node-id=4%3A2], con la oración anterior se hace referencia de que no siempre se le debe hacer caso a todo lo que nos dice esta herramienta.
-
+    
 Encontrará todos los recursos necesarios en la carpeta `/ imagenes`. Los activos ya están optimizados.
 
 También hay un archivo `style-guide.md` que contiene la información necesaria, como la paleta de colores y las fuentes.
