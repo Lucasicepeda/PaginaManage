@@ -6,8 +6,8 @@
 }
 
 body {
-    font-family: 'Be Vietnam Pro', sans-serif;
-    color: #232C50;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #232c50;
 }
 
 header {
@@ -38,7 +38,7 @@ header .hamburger {
 }
 
 .btnGet1 {
-    background-color: #F3603B;
+    background-color: #f3603b;
     color: white;
     padding: 12.5px 30px;
     border-radius: 50px;
@@ -122,14 +122,13 @@ header .hamburger {
 }
 
 .artContent {
-    color: #B3B2B7;
+    color: #b3b2b7;
     font-weight: 500;
     font-size: 16.3px;
-    /* margin-right: 154px */
 }
 
 .num {
-    background-color: #F3603B;
+    background-color: #f3603b;
     color: white;
     padding: 10px 20px;
     border-radius: 50px;
@@ -156,7 +155,7 @@ section h1 {
 .cardUsers div {
     display: flex;
     flex-direction: column;
-    background-color: #FAFAFA;
+    background-color: #fafafa;
     align-items: center;
     position: relative;
 }
@@ -164,7 +163,7 @@ section h1 {
 .cardUsers div img {
     width: 70px;
     position: relative;
-    bottom: 35px
+    bottom: 35px;
 }
 
 .cardName {
@@ -174,7 +173,7 @@ section h1 {
 }
 
 .cardContent {
-    color: #B9B9C1;
+    color: #b9b9c1;
     font-size: 16px;
     text-align: center;
     margin: 0px 14px;
@@ -188,7 +187,7 @@ section h1 {
 }
 
 .preFooter {
-    background-color: #F3603B;
+    background-color: #f3603b;
     height: 220px;
     display: flex;
     justify-content: space-between;
@@ -205,7 +204,7 @@ section h1 {
 
 .btnGet2 {
     background-color: white;
-    color: #F3603B;
+    color: #f3603b;
     padding: 12.5px 30px;
     border-radius: 50px;
     border-style: none;
@@ -225,7 +224,7 @@ section h1 {
 
 footer {
     color: white;
-    background-color: #1E1E26;
+    background-color: #1e1e26;
     position: relative;
     height: 260px;
     margin: 0px;
@@ -240,7 +239,7 @@ footer {
 }
 
 footer>p {
-    color: #8C8C94;
+    color: #8c8c94;
     font-size: 11px;
     position: absolute;
     right: 115px;
@@ -269,7 +268,7 @@ footer>p {
 }
 
 .redes i:hover {
-    color: #F3603B;
+    color: #f3603b;
     transition: 300ms;
 }
 
@@ -283,7 +282,7 @@ footer>p {
 
 .footCol2 ul li:hover,
 .footCol3 ul li:hover {
-    color: #F3603B;
+    color: #f3603b;
     transition: 300ms;
 }
 
@@ -292,12 +291,12 @@ footer>p {
 }
 
 .footCol4 form input::placeholder {
-    color: #A0A0A0;
+    color: #a0a0a0;
 }
 
 .footCol4 form input {
     border-radius: 50px;
-    color: #1E1E26;
+    color: #1e1e26;
     padding: 10px 20px;
     border-style: none;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
@@ -329,7 +328,7 @@ footer form .msj {
 }
 
 .footCol4 form button {
-    background-color: #F3603B;
+    background-color: #f3603b;
     color: white;
     padding: 10px 20px;
     border-radius: 50px;
@@ -345,7 +344,7 @@ footer form .msj {
     transition: 300ms;
 }
 
-@media (max-width:375px) {
+@media (max-width: 375px) {
 
     header nav,
     header button {
@@ -362,7 +361,7 @@ footer form .msj {
         display: block;
     }
 
-    header :nth-child(1){
+    header :nth-child(1) {
         width: 110px;
     }
 
@@ -421,7 +420,14 @@ footer form .msj {
         line-height: 30px;
         color: #232c50b5;
     }
-    .sect2-Col2 .cardSect2 .artText .artTitle{
+
+    .num {
+        width: max-content;
+        position: absolute;
+        padding: 10px 22px;
+    }
+
+    .sect2-Col2 .cardSect2 .artText .artTitle {
         display: flex;
         align-content: center;
         padding: 10px 0px 10px 0px;
@@ -429,28 +435,25 @@ footer form .msj {
         margin: 0px 0px 0px 10px;
     }
 
-    .sect2-Col2 .cardSect2 .artText .artTitle p{
+    .sect2-Col2 .cardSect2 .artText .artTitle p {
         margin: 0px;
         padding: 0px 0px 0px 70px;
     }
-    .sect2-Col2 .cardSect2 .artText .artContent p{
+
+    .sect2-Col2 .cardSect2 .artText .artContent p {
         margin: 10px 15px 20px 0px;
         font-weight: 400;
         font-size: 14px;
         line-height: 25px;
     }
+
     .sect2-Col2 .cardSect2 {
         flex-direction: column;
         margin: 20px 0px 20px 15px;
     }
-    .sect2-Col2 .cardSect2 > p {
-        font-weight: 600;
-    }
 
-    .num{
-        width: max-content;
-        position: absolute;
-        padding: 10px 22px;
+    .sect2-Col2 .cardSect2>p {
+        font-weight: 600;
     }
 
     section h1 {
@@ -472,7 +475,7 @@ footer form .msj {
     }
 
     .preFooter {
-        background-color: #F3603B;
+        background-color: #f3603b;
         height: 380px;
         display: flex;
         flex-direction: column;
@@ -492,8 +495,8 @@ footer form .msj {
     }
 
     footer>p {
-        color: #8C8C94;
-        background-color: #1E1E26;
+        color: #8c8c94;
+        background-color: #1e1e26;
         padding: 0px 0px 50px 0px;
         position: unset;
         text-align: center;
@@ -556,5 +559,4 @@ footer form .msj {
     .redes div {
         margin: 0px 17px;
     }
-
 }
